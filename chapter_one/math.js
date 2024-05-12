@@ -67,3 +67,31 @@ function isPrime(n){
 console.log(isPrime(3)) // true
 console.log(isPrime(4)) // false
 console.log(isPrime(5)) // true
+
+
+// Linear time complexity O(n) = Big O(n)
+
+// now we can optimize the above function by reducing the number of iterations
+
+// Integers larger than the square root do not need to be checked, because if n is divisible by a number larger than its square root, it is divisible by a smaller number that is less than its square root.
+
+function isPrime(n){
+    if(n<2){
+        return false
+    }
+
+    for(let i=2;i<=Math.sqrt(n);i++){
+        if(n%i === 0){
+            return false
+        }
+
+    }
+
+    return true
+
+}
+
+console.log(isPrime(3)) // true
+console.log(isPrime(4)) // false
+console.log(isPrime(5)) // true
+
