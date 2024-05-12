@@ -95,3 +95,54 @@ console.log(isPrime(3)) // true
 console.log(isPrime(4)) // false
 console.log(isPrime(5)) // true
 
+//  the time complexity of the above function is O(sqrt(n)) = Big O(sqrt(n))
+
+// Given a positive integer n, determine if the number is a power of 2 or not
+
+function isPowerOfTwo(n){
+
+    if(n<1){
+        return false
+    }
+
+    while(n>1){
+        if(n%2 !== 0){
+            return false
+
+        }
+        n = n/2
+    }
+    return true
+
+}
+
+
+console.log(isPowerOfTwo(4)) // true
+console.log(isPowerOfTwo(5)) // false
+console.log(isPowerOfTwo(18)) // false
+
+// logarithmic time complexity of the above function is O(log n) = Big O(log n)
+
+
+
+// Now we can optimize the above function by using bitwise operators
+
+function isPowerOfTwo(n){
+    if(n<1){
+        return false
+    }
+
+    return (n & (n-1)) === 0
+
+}
+
+console.log(isPowerOfTwo(4)) // true
+console.log(isPowerOfTwo(5)) // false
+// this function is O(1) = Big O(1) time complexity means it is constant time complexity
+
+
+
+
+
+
+
