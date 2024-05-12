@@ -43,6 +43,9 @@ So the time complexity is linear.
 ### Big o Calculation contd.
 
 
+![image](https://github.com/ardhrubo/dsajs/assets/112472739/9077d175-42b5-49b5-8dcd-d714cf3d5e47)
+
+
 
 
 
