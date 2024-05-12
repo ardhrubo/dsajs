@@ -40,4 +40,9 @@ So the O(n) - Linear
 So the time complexity is linear.
 
 
+### Big o Calculation contd.
+
+
+
+
 
