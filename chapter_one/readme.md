@@ -1,17 +1,17 @@
-## Big-O Notation
+# Big-O Notation
 
 
-What is worst case time complexity ?
+### What is worst case time complexity ?
 
-The worst case complexity of an algorithm is represented using the Big-O notation
+1. The worst case complexity of an algorithm is represented using the Big-O notation
 
-Big O notation describes the complexity of an algorithm using algebraic terms
+2. Big O notation describes the complexity of an algorithm using algebraic terms
 
-It has two important characacteristics
+### It has two important characacteristics
 
-It is expressed in the terms of the input
+1. It is expressed in the terms of the input
 
-It focuses on the bigger picture without caught up in the minute details 
+2. It focuses on the bigger picture without caught up in the minute details 
 
 
 ### Big O Time complexity
