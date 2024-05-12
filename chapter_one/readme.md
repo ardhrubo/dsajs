@@ -55,6 +55,7 @@ So the time complexity is linear.
 
 ### Big O trend
 
+![image](https://github.com/ardhrubo/dsajs/assets/112472739/f0dbf597-cfd2-45c5-8282-38293d0b2454)
 
 
 
