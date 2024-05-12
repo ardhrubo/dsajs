@@ -40,10 +40,20 @@ So the O(n) - Linear
 So the time complexity is linear.
 
 
-### Big o Calculation contd.
+## Big o Calculation contd.
 
 
 ![image](https://github.com/ardhrubo/dsajs/assets/112472739/9077d175-42b5-49b5-8dcd-d714cf3d5e47)
+
+
+
+## Spcae Complexity
+
+    O(1) - Constant
+    O(n) - Linear
+    O(logn) - Logarithm
+
+### Big O trend
 
 
 
