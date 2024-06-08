@@ -21,5 +21,9 @@ console.log(recursiveFibonaci(0)) // 0
 console.log(recursiveFibonaci(2)) // 1
 console.log(recursiveFibonaci(3)) // 2
 console.log(recursiveFibonaci(4)) // 3
-
 console.log(recursiveFibonaci(10)) // 55
+
+
+// The time complexity of this solution is O(2^n) because we are calling the function twice in each call
+
+
