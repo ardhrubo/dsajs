@@ -27,3 +27,24 @@ console.log(recursiveFibonaci(10)) // 55
 // The time complexity of this solution is O(2^n) because we are calling the function twice in each call
 
 
+// Find the factorial of the number in a recursive way
+
+function recursiveFactorial(n){
+    if(n<=1){
+        return 1;
+    }
+
+    return n  * recursiveFactorial(n-1);
+
+}
+
+console.log(recursiveFactorial(0)) // 1
+console.log(recursiveFactorial(1)) // 1
+console.log(recursiveFactorial(2)) // 2
+console.log(recursiveFactorial(3)) // 6
+console.log(recursiveFactorial(4)) // 24
+
+
+
+
+
