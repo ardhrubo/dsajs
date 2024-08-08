@@ -45,6 +45,6 @@ console.log(recursiveFactorial(3)) // 6
 console.log(recursiveFactorial(4)) // 24
 
 
-
+// the time complexity of this solution is O(2^n)
 
 
