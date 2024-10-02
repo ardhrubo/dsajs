@@ -35,4 +35,6 @@ towerOfHanoi(3,'A','C','B') // Here A is the source rod, B is the auxiliary rod 
 
 towerOfHanoi(4,'A','C','B') // Here A is the source rod, B is the auxiliary rod and C is the destination rod.
 
-
+// The time complexity of the above alogrithm is 2^n . 
+// The space complexity of the above alogrithm is O(n) as we are using recursion.
+// Big-O-Notation: O(2^n)
