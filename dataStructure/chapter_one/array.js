@@ -26,5 +26,7 @@ console.log(arr[0]); // 1
 console.log(arr[10]); // hello
 
 
-
+for(item of arr){
+    console.log(item);
+}
 
