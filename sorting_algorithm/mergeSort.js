@@ -57,6 +57,8 @@ console.log(mergeSort([1,2,3,4,5,6,7,8,9])); // [1,2,3,4,5,6,7,8,9]
 console.log(mergeSort([9,8,7,6,5,4,3,2,1])); // [1,2,3,4,5,6,7,8,9]
 
 
+// Time Complexity: O(nlogn)
+// The big O(n) for merge sort alogorithm is O(nlogn)
 
 
 

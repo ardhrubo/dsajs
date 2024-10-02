@@ -21,6 +21,10 @@ function climibingStaircase(n){
 
     const noOfWays = [1,2]
 
+    for(let i=2;i<n;i++){
+        noOfWays[i] =  noOfWays[i-1] + noOfWays[i-2]
+    }
+
 
 
     return noOfWays[n-1]
@@ -33,6 +37,7 @@ console.log(climibingStaircase(1)) // 1
 console.log(climibingStaircase(2)) // 2
 
 
-
+// The time complexity of this algorithm is O(n)
+// The Big O(n) for this algorithm is O(n)
 
 
