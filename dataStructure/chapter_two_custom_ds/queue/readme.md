@@ -17,7 +17,11 @@ The queue data structure supports two main operations:
 2. **Dequeue**: Removes an element from the front/head of the collection.
 
 ## Queue Visualazaion
-    
+- Enqueue
+    ![image](https://github.com/user-attachments/assets/108b1494-09d7-4ad4-b641-cd333515b671)
+- Dequeue
+    ![image](https://github.com/user-attachments/assets/a3b376c0-c1e9-48dc-9469-aab3bfc5d56f)
+
 
 
 ## Queue Usage
