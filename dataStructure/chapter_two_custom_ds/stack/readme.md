@@ -15,3 +15,9 @@ Stack is an abstract data type. It is defined by its behavior rather than being 
 The stack data structure has two main operations:
 1. **push**: Adds an element to the stack.
 2. **pop**: Removes the most recently added element.
+
+## Visualization of Stack Data Structure
+
+![image](https://github.com/user-attachments/assets/27dc6c0c-ca5a-4c35-bba1-dd3480a445e6)
+
+
