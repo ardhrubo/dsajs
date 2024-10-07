@@ -47,7 +47,7 @@ When working with queues of fixed maximum size, a circular queue is a great impl
 The Circular Queue data structure supports two main operations
 - **Enqueue**: Which adds an element to the rear/tail of the collection
 
--**Dequeue**: Which removes an element from the front/head of the collection.
+- **Dequeue**: Which removes an element from the front/head of the collection.
 
 
 
