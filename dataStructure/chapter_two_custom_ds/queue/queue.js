@@ -19,10 +19,68 @@ The data structure supports two main operations
 
 */
 
-let a = 1
+class Queue {
 
-for (let i = 0; i < 10; i++) {
-    console.log(a)
-    a++
+    constructor(){
+        this.items = {};
+        this.front = 0;
+        this.end = 0;
+
+    }
+
+    enqueue(item){
+        this.items[this.end] = item;
+        this.end++;
+    }
+    dequeue(){
+        const item = this.items[this.front];
+        delete this.items[this.front];
+        this.front++;
+        return item;
+    }
+
+    isEmpty(){
+        return this.front === this.end ;
+    }
+
+    peek(){
+        return this.items[this.front];
+    }
+
+    size(){
+        return this.end - this.front;
+    }
+
+    print(){
+        return this.items;
+    }
+
+
+
+    
+
+
+
 }
+
+let queue = new Queue();
+
+queue.enqueue(1);
+queue.enqueue(2);
+queue.enqueue(3);
+
+console.log(queue.items);
+
+queue.dequeue();
+queue.enqueue(4);
+
+console.log(queue.print());
+
+console.log(queue.items);
+console.log(queue.isEmpty());
+console.log(queue.peek());
+console.log(queue.size());
+
+
+
 

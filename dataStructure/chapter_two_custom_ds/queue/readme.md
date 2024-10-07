@@ -17,7 +17,7 @@ The queue data structure supports two main operations:
 2. **Dequeue**: Removes an element from the front/head of the collection.
 
 ## Queue Visualazaion
-    
+
 
 
 ## Queue Usage
@@ -27,6 +27,4 @@ Queues are used in various applications, including:
 - **Print Queue**: Managing print jobs in a printer queue.
 - **Breadth-First Search**: Queues are used in graph traversal algorithms like breadth-first search (BFS).
 - **Buffering**: Queues are used in buffering data streams, such as in IO operations and network data handling.
-
-
 
