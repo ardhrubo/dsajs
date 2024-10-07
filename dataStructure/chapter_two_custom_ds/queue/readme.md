@@ -35,25 +35,25 @@ Queues are used in various applications, including:
 
 ## Circular Queue
 
-    The size of the queue is fixed and a single block of memory is used as if the first element is connected to the last element.
-    
-    Also referred to as circular buffer or ring buffer and follows the FIFO
-    principle
-    
-    A circular queue will reuse the empty block created during the dequeue operation
-    
-    When working with queues of fixed maximum size, a circular queue is a great implementation choice
+The size of the queue is fixed and a single block of memory is used as if the first element is connected to the last element.
+
+Also referred to as circular buffer or ring buffer and follows the FIFO
+principle
+
+A circular queue will reuse the empty block created during the dequeue operation
+
+When working with queues of fixed maximum size, a circular queue is a great implementation choice
+
 ## Visualization of Circular Queue
  ![image](https://github.com/user-attachments/assets/4ff869ea-eb21-4c83-9fa1-e00ce96e9f0d)
- ![image](https://github.com/user-attachments/assets/0836b308-f763-4175-8647-e6d8d5822c1b)
 
-
-
-
-The Circular Queue data structure supports two main operations
+### The Circular Queue data structure supports two main operations
 - **Enqueue**: Which adds an element to the rear/tail of the collection
 
 - **Dequeue**: Which removes an element from the front/head of the collection.
+  
+ ![image](https://github.com/user-attachments/assets/0836b308-f763-4175-8647-e6d8d5822c1b)
+
 
 
 
