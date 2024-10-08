@@ -23,6 +23,11 @@ A linked list is a linear data structure that includes a series of connected nod
 
 ## Visualization of Linked List
 
+
+
+
+
+
 ### Singly Linked List
 
 A singly linked list can be visualized as a chain of nodes, where each node points to the next node in the sequence:
