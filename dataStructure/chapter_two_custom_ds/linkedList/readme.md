@@ -14,6 +14,12 @@ A linked list is a linear data structure that includes a series of connected nod
 2. **Doubly Linked List**: Each node points to both the next and the previous nodes.
 3. **Circular Linked List**: The last node points back to the first node, forming a circle.
 
+
+## Linked List Usage
+    1. All application of both stacks and queues are application of linked lists
+    2. Image viewer
+
+
 ## Linked List Operations
 
 - **Insertion**: Adds an element at the beginning, end, or at a specified position.
@@ -23,8 +29,6 @@ A linked list is a linear data structure that includes a series of connected nod
 
 ## Visualization of Linked List
  ![image](https://github.com/user-attachments/assets/162cd8b3-e823-4876-801b-c7584b5052be)
-
-
 
 
 
