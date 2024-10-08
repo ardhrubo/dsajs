@@ -17,7 +17,7 @@ A linked list is a linear data structure that includes a series of connected nod
 
 ## Linked List Usage
     1. All application of both stacks and queues are application of linked lists
-    2. Image viewer
+    2. Image viewer / slideshow
 
 
 ## Linked List Operations
