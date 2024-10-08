@@ -29,6 +29,10 @@ A linked list is a linear data structure that includes a series of connected nod
 
 ## Visualization of Linked List
  ![image](https://github.com/user-attachments/assets/162cd8b3-e823-4876-801b-c7584b5052be)
+ 
+ - **Linked List Node**
+   
+ ![image](https://github.com/user-attachments/assets/5900d44d-fe24-4275-a324-4ea5a90d908e)
 
 
 
