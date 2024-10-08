@@ -22,6 +22,8 @@ A linked list is a linear data structure that includes a series of connected nod
 - **Traversal**: Accesses each element in the list sequentially.
 
 ## Visualization of Linked List
+ ![image](https://github.com/user-attachments/assets/162cd8b3-e823-4876-801b-c7584b5052be)
+
 
 
 
