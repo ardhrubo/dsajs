@@ -20,15 +20,51 @@ class LinkedList{
     getSize(){
         return this.size
     }
+    prepend(value){
+        const node = new Node(value);
+        if(this.isEmpty()){
+            this.head = node;
+        }else{
+            node.next = this.head;
+            this.head = node
+        }
+
+        this.size++
+
+    }
+
+    print(){
+        if(this.isEmpty()){
+            return "empty"
+        }else{
+            let current = this.head;
+            let listValue = ''
+            while(current){
+                listValue += current.value + ' -> ';
+                current = current.next
+            }
+
+            return listValue
+
+
+        }
+    } 
+
+
 
 }
 
 const list = new LinkedList();
 
+list.prepend(10)
+list.prepend(20)
+list.prepend(30)
+
 console.log(list.isEmpty()) // true
 
 console.log(list.getSize()) // 0
 
+console.log(list.print()) // 
 
 
 
