@@ -68,6 +68,7 @@ class LinkedList{
             }
             node.next = prev.next
             prev.next = node
+            this.size++
         }
 
 
@@ -111,6 +112,15 @@ list.append(50)
 list.append(60)
 
 console.log(list.print()) // 
+
+list.insert(70,2)
+
+console.log(list.print()) //
+
+list.insert(80,0)
+
+console.log(list.print()) //
+
 
 
 
