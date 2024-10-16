@@ -33,6 +33,47 @@ class LinkedList{
 
     }
 
+    // O(1) time complexity in prepend
+
+
+    append(value){
+        const node = new Node(value);
+        if(this.isEmpty()){
+            this.head = node
+        } else{
+            let prev = this.head
+            while(prev.next){
+                prev = prev.next
+            }
+            prev.next = node
+        }
+        this.size++
+    }
+
+    // O(n) time complexity in append
+
+
+    insert(value,index){
+        if( index < 0 || index > this.size){
+            return 
+        }
+        if(index === 0){
+            this.prepend(value)
+            return
+        }else{
+            const node = new Node(value);
+            let prev = this.head
+            for(let i=0;i<index-1;i++){
+                prev = prev.next
+            }
+            node.next = prev.next
+            prev.next = node
+        }
+
+
+    }
+
+
     print(){
         if(this.isEmpty()){
             return "empty"
@@ -45,7 +86,6 @@ class LinkedList{
             }
 
             return listValue
-
 
         }
     } 
@@ -66,8 +106,11 @@ console.log(list.getSize()) // 0
 
 console.log(list.print()) // 
 
+list.append(40)
+list.append(50)
+list.append(60)
 
-
+console.log(list.print()) // 
 
 
 
