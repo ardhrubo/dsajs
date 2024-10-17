@@ -51,7 +51,31 @@ class LinkedList{
     }
 
     // O(n) time complexity in append
+    removeFrom(index){
+        if(index<0 || index > this.size){
+            return null
+        }
 
+        let removedNode;
+        if(index === 0){
+            removedNode = this.head
+            this.head = this.head.next
+        } else {
+            let prev = this.head
+            for(let i=0;i<index-1;i++){
+                prev = prev.next
+            }
+            removedNode = prev.next
+            prev.next = removedNode.next
+
+        }
+
+        this.size--
+
+        return removedNode.value
+
+
+    }
 
     insert(value,index){
         if( index < 0 || index > this.size){
@@ -120,8 +144,15 @@ console.log(list.print()) //
 list.insert(80,0)
 
 console.log(list.print()) //
+console.log(list.getSize()) 
 
 
+console.log(list.removeFrom(2))
 
+console.log(list.removeFrom(10))
+
+console.log(list.print()) // 80 -> 30 -> 20 -> 10 -> 40 -> 50 -> 60 ->
+
+console.log(list.getSize()) 
 
 
