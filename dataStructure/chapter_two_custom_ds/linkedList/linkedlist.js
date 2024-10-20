@@ -103,6 +103,9 @@ class LinkedList{
 
     }
 
+    // Remoing head node is O(1) time complexity - Constant time complexity
+    // Removing other node is O(n) time complexity - Linear time complexity
+
 
 
     insert(value,index){
