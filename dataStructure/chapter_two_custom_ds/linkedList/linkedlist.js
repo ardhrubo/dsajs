@@ -77,8 +77,30 @@ class LinkedList{
 
     }
 
-    removeValue(){
+    removeValue(value){
+        if(this.isEmpty()){
+            return null
         
+        }
+
+        if(this.head.value === value){
+            this.head = this.head.next
+            this.size--
+            return value
+        }else{
+            let prev = this.head
+            while(prev.next && prev.next.value !== value){
+                prev = prev.next
+            }
+            if(prev.next){
+                let removedNode = prev.next
+                prev.next = removedNode.next
+                this.size--
+                return value
+            }
+            return null
+        }
+
     }
 
 
@@ -161,4 +183,10 @@ console.log(list.print()) // 80 -> 30 -> 20 -> 10 -> 40 -> 50 -> 60 ->
 
 console.log(list.getSize()) 
 
+
+console.log(list.removeValue(40))
+
+console.log(list.removeValue(30))
+
+console.log(list.print()) // 80 -> 20 -> 10 -> 50 -> 60 ->
 
