@@ -150,6 +150,19 @@ class LinkedList{
 
     }
 
+    reverse(){
+        let prev = null
+        let curr = this.head
+        while(curr){
+            let next = curr.next
+            curr.next = prev
+            prev = curr
+            curr = next
+        }
+        this.head=prev
+
+    }
+
 
 
     print(){
@@ -215,4 +228,9 @@ console.log(list.removeValue(30))
 
 console.log(list.print()) // 80 -> 20 -> 10 -> 50 -> 60 ->
 
-console.log(list.search(80)) // 0
+// console.log(list.search(80)) // 0
+
+list.reverse()
+
+console.log(list.print())
+
