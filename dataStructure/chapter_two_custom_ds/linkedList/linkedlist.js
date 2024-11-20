@@ -129,6 +129,28 @@ class LinkedList{
 
     }
 
+    search(value){
+        if(this.isEmpty()){
+            return -1
+        }
+        
+        let i=0;
+        let curr = this.head
+        while(curr){
+            if(curr.value===value){
+                return i
+            }
+            curr = curr.next
+            i++
+        }
+
+        return -1
+
+
+
+    }
+
+
 
     print(){
         if(this.isEmpty()){
@@ -193,3 +215,4 @@ console.log(list.removeValue(30))
 
 console.log(list.print()) // 80 -> 20 -> 10 -> 50 -> 60 ->
 
+console.log(list.search(80)) // 0
