@@ -107,33 +107,35 @@ class LinkedListWithTail{
 }
 
 
-const list = new LinkedListWithTail()
+module.exports = LinkedListWithTail
 
-list.append(1)
-list.append(2)
-list.append(3)
-list.append(4)
-list.append(5)
-list.append(6)
+// const list = new LinkedListWithTail()
 
-
-console.log(list.print())
-
-list.removeFromFront()
+// list.append(1)
+// list.append(2)
+// list.append(3)
+// list.append(4)
+// list.append(5)
+// list.append(6)
 
 
+// console.log(list.print())
 
-console.log(list.print())
-
-
-list.removeFromEnd()
-
-console.log(list.print())
+// list.removeFromFront()
 
 
-list.prepend(11)
 
-console.log(list.print())
+// console.log(list.print())
 
-console.log(list.getSize())
+
+// list.removeFromEnd()
+
+// console.log(list.print())
+
+
+// list.prepend(11)
+
+// console.log(list.print())
+
+// console.log(list.getSize())
 
